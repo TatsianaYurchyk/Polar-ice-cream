@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@700&family=Roboto:wght@500&display=swap');
+html {
+    box-sizing: border-box;
+}
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.2;
+   font-weight: normal;
+   color: #0F0101;
+   background: #F2CEDA;
+}
+
+.wrapper{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+.container-xxl{
+    padding: 0;
+}
+
+/* Header start */
+.navbar-nav{
+    margin-right: 0;
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    padding-right: 24px;
+}
+
+.nav-item:last-child{
+    padding-right: 40px;
+}
+.logo{
+    margin-right: 258px;
+}
+.active{
+    color: #D23166 !important;
+}
+.btn.btn-primary{
+    margin: 0;
+
+}
+.btn-buy-now{
+    background-color: #D23166;
+    color: white;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    border: none;
+    max-width: 165px;
+    max-height: 49px;
+    padding: 10px 17px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn-buy-now:hover{
+    opacity: 0.7;
+    background-color: #D23166;
+}
+/* Header end */
+
+/* Intro start */
+
+.intro_wrapper{
+    display: flex;
+}
+.intro_title_wrapper{
+    padding-top: 196px;
+    max-width: 665px;
+    max-height: 364px;
+    margin-bottom: 213px;
+  
+}
+
+.intro_pretitle{
+    font-size: 14px;
+}
+
+.intro_title{
+   font-family: Fredoka One;
+   font-size: 55px; 
+   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.246);
+}
+.intro_subtitle{
+    font-size: 18px;
+    max-width: 523px;
+    max-height: 78px;
+    padding-bottom: 50px;
+}
+
+.colored{
+    color: #D23166
+}
+
+.intro_image_wrapper{
+    /* max-width: 460px; */
+    padding-top: 37px;
+}
+
+
+/* Intro end */
+
+/* Delivery start */
+.delivery{
+    background-color: white;
+}
+.card-img-top{
+    max-width: 54px;
+    max-height: 54px;
+    margin: 0 auto;
+}
+.row_delivery{
+    padding: 62px 0px;
+    justify-content: space-between;
+}
+.card{
+    max-width: 250px;
+    padding-right: 39px;
+}
+.card:last-child{
+    padding-right: 0;
+}
+.card-text{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.card{
+    padding-right: 39px;
+    max-width: 250px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 12px 12px 2px 1px #F2CEDA;
+}
+/* Delivery end */
+
+/* Section New_Taste start*/
+.col_newtaste{
+    padding-top: 142px;
+}
+
+h2{
+    font-family: Hind Madurai;
+    font-size: 40px;
+}
+.subtitle{
+    padding-top: 16px;
+    padding-bottom: 35px;
+
+}
+@media screen and (max-width:1000px){
+    .intro_title_wrapper{
+        padding-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    .intro_subtitle{
+        font-size: 18px;
+        max-width: 523px;
+        max-height: 78px;
+        padding-bottom: 50px;
+    }
+    .col_newtaste{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:767px){
+    body{
+        font-size: 14px;
+    }
+    .row_newtaste{
+        display: block;
+    }
+    .intro_title{
+        font-size:25px; 
+     }
+     .intro_title_wrapper{
+        margin-bottom: 10px;
+    }
+     .intro_subtitle{
+         font-size: 10px;
+         padding-bottom: 3px;
+     }
+    .subtitle{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    .img_newtaste{
+        transform: scale(0.88);
+    }
+
+    .row_delivery{
+        width: 50%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
