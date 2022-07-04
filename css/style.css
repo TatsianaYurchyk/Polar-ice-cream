@@ -17,12 +17,19 @@ body{
    background: #F2CEDA;
 }
 
-.wrapper{
+.container{
     max-width: 1125px;
     margin: 0 auto;
 }
 .container-xxl{
     padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #D23166;
 }
 
 /* Header start */
@@ -69,6 +76,7 @@ body{
     opacity: 0.7;
     background-color: #D23166;
 }
+
 /* Header end */
 
 /* Intro start */
@@ -117,8 +125,7 @@ body{
     background-color: white;
 }
 .card-img-top{
-    max-width: 54px;
-    max-height: 54px;
+    max-height: 55px;
     margin: 0 auto;
 }
 .row_delivery{
@@ -138,10 +145,7 @@ body{
 h4{
     text-align: center;
 }
-.card{
-    padding-right: 39px;
-    max-width: 250px;
-}
+
 .card:hover{
     transform: scale(1.1);
     box-shadow: 12px 12px 2px 1px #F2CEDA;
@@ -162,6 +166,23 @@ h2{
     padding-bottom: 35px;
 
 }
+/* Section New_Taste end*/
+
+/* Footer start*/
+.footer{
+background-color: black;
+padding-top: 149px;
+padding-bottom: 114px;
+color: white;
+font-size: 12px;
+}
+
+.footer_logo{
+    transform: translateY(-79px);
+}
+/* Footer end*/
+
+
 @media screen and (max-width:1000px){
     .intro_title_wrapper{
         padding-top: 10px;
@@ -203,15 +224,6 @@ h2{
     h2{
         font-size: 22px;
     }
-
-    .img_newtaste{
-        transform: scale(0.88);
-    }
-
-    .row_delivery{
-        width: 50%;
-    }
-
 
 }
 
